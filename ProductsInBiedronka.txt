@@ -1,0 +1,5 @@
+Mleko;12.50;Mlekowita
+Chleb;2.50;Piekarnia Biedronka
+Jogurt Jogobella;3.10;Zott
+Jogurt zwykły;2.20;Piątnica
+Jogurt;1.10;Mlekowita
