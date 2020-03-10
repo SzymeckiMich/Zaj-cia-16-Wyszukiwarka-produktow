@@ -6,15 +6,14 @@ public class PartialTextSearch implements ProductSearchStrategy {
     public List<Product> findByName(List<Product> allProducts, String name) {
         List<Product> passProducts = new ArrayList<>();
         for (int i = 0; i < allProducts.size(); i++) {
-            if(allProducts.get(i).getName().contains(name)){
+            if (allProducts.get(i).getName().contains(name)) {
                 passProducts.add(allProducts.get(i));
             }
         }
 
-        if(!passProducts.isEmpty()) {
+        if (!passProducts.isEmpty()) {
             return passProducts;
-        }
-        else{
+        } else {
             return null;
         }
 

@@ -11,10 +11,9 @@ public class ExactTextSearch implements ProductSearchStrategy {
             }
         }
 
-        if(!passProducts.isEmpty()) {
+        if (!passProducts.isEmpty()) {
             return passProducts;
-        }
-        else{
+        } else {
             return null;
         }
 
